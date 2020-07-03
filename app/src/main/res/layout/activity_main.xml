@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff666666"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/labelTypeTextCoffee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff993300"
+        android:text="What type Coffee ?"
+        android:textStyle="bold">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/labelTypeCoffee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff993300"
+        android:text="What type Coffee ?"
+        android:textStyle="bold"></RadioGroup>
+        <RadioButton android:id="@+id/radDecaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decaf" />
+        <RadioButton android:id="@+id/radExpresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expresso" />
+        <RadioButton android:id="@+id/radColombian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Colombian" />
+    <TextView android:id="@+id/labelCoffee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff993300"
+        android:text="What else in you Coffee ?"
+        android:textStyle="bold">
+    </TextView>
+    <CheckBox android:id="@+id/chkCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cream"
+        android:textStyle="bold">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/chkSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        android:textStyle="bold">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:textStyle="bold"></Button>
+</LinearLayout>

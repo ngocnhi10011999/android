@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+<LinearLayout android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/labelTypeTextCoffee"
+        android:layout_width="fill_parent"
+        android:layout_height="63dp"
+        android:background="#ff0033cc"
+        android:text="English Vocabulary"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:textStyle="bold"></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:src="@drawable/image1" />
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:text="Pay"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnPratice"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold"></Button>
+    <LinearLayout android:id="@+id/ImgaeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/image3" />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/image4" />
+    </LinearLayout>
+</LinearLayout>
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
